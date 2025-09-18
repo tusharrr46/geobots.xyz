@@ -1,0 +1,65 @@
+*.pyc
+/backend/db.sqlite3
+.DS_Store
+*/settings/local.py
+/staticfiles/*
+/mediafiles/*
+__pycache__/
+/.vscode/
+
+# coverage result
+.coverage
+/coverage/
+
+# pycharm
+.idea/
+
+# data
+*.dump
+
+# npm
+node_modules/
+npm-debug.log
+
+# Webpack
+/frontend/bundles/*
+/frontend/webpack_bundles/*
+/webpack-stats.json
+
+# Sass
+.sass-cache
+*.map
+
+# General
+/{{project_name}}-venv/
+/venv/
+/output/
+/cache/
+boilerplate.zip
+
+# Spritesmith
+spritesmith-generated/
+spritesmith.scss
+
+# templated email
+tmp_email/
+
+# .gitingore from React
+/.pnp
+.pnp.js
+
+# misc
+.env
+.env.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock*
+
+# Terraform
+.git
+.terraform
+terraform.tfstate*
+*.key
+build

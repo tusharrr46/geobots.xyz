@@ -1,0 +1,23 @@
+@use 'global' as *;
+
+.map-location {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  z-index: 3;
+  padding: 0 20px;
+  font-style: italic;
+  font-size: 1.4em;
+  font-weight: 700;
+  border-radius: 10px;
+  border: $border;
+  box-shadow: $box-shadow;
+  background-color: $card-bg;
+}
+// mobile-style
+@media screen and (max-width: 768px) {
+  .map-location {
+    top: 75px;
+    font-size: 1em;
+  }
+}

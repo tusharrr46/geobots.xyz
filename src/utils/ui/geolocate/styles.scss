@@ -1,0 +1,14 @@
+@use 'global' as *;
+
+.mapboxgl-ctrl-group {
+	margin-right: 10px !important;
+	margin-bottom: 15px !important;
+	border-radius: 10px !important;
+	box-shadow: $box-shadow !important;
+}
+.mapboxgl-ctrl-geolocate {
+	width: 40px !important;
+	height: 40px !important;
+	padding: 5px !important;
+	background-color: $card-bg !important;
+}

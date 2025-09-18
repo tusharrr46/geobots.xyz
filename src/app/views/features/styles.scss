@@ -1,0 +1,17 @@
+.features-wrapper {
+  text-transform: capitalize;
+  padding-left: 20px;
+  padding-right: 15px;
+  display: grid;
+  grid-gap: 15px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: calc(100vh - 150px);
+  box-sizing: content-box;
+}
+// mobile-style
+@media screen and (max-width: 768px) {
+  .features-wrapper {
+    max-height: calc(100vh - 300px);
+  }
+}

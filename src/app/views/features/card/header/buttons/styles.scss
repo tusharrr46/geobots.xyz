@@ -1,0 +1,11 @@
+@use 'global' as *;
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.close-btn {
+  font-size: 15px;
+  color: $text-dark;
+}
