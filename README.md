@@ -37,7 +37,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/ugeom/geobots.xyz.git](https://github.com/ugeom/geobots.xyz.git)
+    git clone [https://github.com/hvoking/geobots.xyz.git](https://github.com/hvoking/geobots.xyz.git)
     cd geobots
     ```
 
