@@ -4,7 +4,6 @@ An interactive web map showing snippets of the world at any location, with adjus
 
 This project is open-source. All the code and interface is created from scratch with the fewest external libraries possible, and the objective is to be a base for AI applications.
 
-
 ---
 
 ## 🌐 Live Demo
