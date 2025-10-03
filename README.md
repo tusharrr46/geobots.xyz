@@ -87,5 +87,5 @@ Contributions are welcome! If you have suggestions for improvements, new feature
 
 ## 👨‍💻 Created By
 
-**Gustavo Gonzalez - Urban Geometry** - [ugeom.com](https://ugeom.com)  
-Architect and Urbanist [Urban Geometry] (https://ugeom.com)
+**Gustavo Gonzalez - Urban Geometry**
+Architect and Urbanist [Urban Geometry]
